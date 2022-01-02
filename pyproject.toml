@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pybank"
+version = "0.1.0"
+description = "Toy bank implementation"
+authors = ["Igor Nikolaev <igor.nikolaev@nikisoft.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.12b0"
+isort = "^5.10.1"
+pyright = "^0.0.13"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
